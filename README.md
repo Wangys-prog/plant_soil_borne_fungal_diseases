@@ -27,7 +27,7 @@ The open-source Python-based toolkit is depending on the Python environment (Pyt
 
     python generate_models_acc.py training_results  60 --e test_data (your test data set)
 
-### **references** 
+### **References** 
 
     (1) Yansu Wang et al. Multiple feature ranking strategies for predicting plant soil-borne fungal disease occurrence from soil microbiome data
     (2) Reiman, Derek, et al. "Meta-Signer: Metagenomic Signature Identifier based on Rank Aggregation of Features." bioRxiv (2020).
