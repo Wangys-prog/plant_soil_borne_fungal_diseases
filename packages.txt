@@ -1,0 +1,12 @@
+numpy
+pandas
+sklearn
+matplotlib
+seaborn
+scikit-bio
+statsmodels
+tensorflow
+
+python feature_selection.py -i ./Features/disease -k 102 -o ./training_results
+
+python generate_models_acc.py  training_results  60 --e test_data

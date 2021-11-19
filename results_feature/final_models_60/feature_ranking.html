@@ -1,0 +1,253 @@
+
+    <body>
+        <div class="svg-container">
+            <svg viewbox="0 0 800 400" class="svg">
+                <path id="curve" fill="darkblue" d="M 800 100 Q 400 150 0 100 L 0 0 L 800 0 L 800 300 Z">></path>
+            </svg>
+        </div>
+
+        <header>
+            <h1>Meta-Signer</h1>
+        </header>
+
+        <main>
+            <h3>Run Settings</h3><br/>
+            <table>
+            <tr><td class="category" style="width:300px">Dataset</td><td class="descriptor">results_feature</td></tr>
+        <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+        <tr><td class="category" style="width:300px">Models Trained</td><td class="descriptor">RF&emsp;SVM&emsp;Logistic Regression&emsp;MLPNN&emsp;</td></tr>
+            </table></br></br>
+            <h3>Model Feature Lists</h3>
+            <br/><div style=width:100%;padding-bottom:10px;><table><tr><td><button class="button" onclick="openFeat('RF_features')">RF</button></td><td><button class="button" onclick="openFeat('SVM_features')">SVM</button></td><td><button class="button" onclick="openFeat('Logistic Regression_features')">Logistic Regression</button></td><td><button class="button" onclick="openFeat('MLPNN_features')">MLPNN</button></td></tr></table></div><div style='width:100%; '  id='RF_features' class="w3-container model_feature_list"><table style="width:100%" class="taxonomy"><tr><th align="left" style="width:25%" height="50">Microbe</th><th style="width:10%" align="left">% in top-k</th></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 12349</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 78969</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 151101</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 13461</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 93747</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 40108</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 15904</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 76519</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 40091</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 23990</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 38330</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 40226</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 17467</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 39466</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 21438</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 54425</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 56880</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 731894</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 56945</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 65162</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30509</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 25850</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 17455</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 121783</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 31566</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 81595</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 64987</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 14674</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 82508</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 52191</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 21434</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 21457</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 68256</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30394</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 54487</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 40614</td><td>96.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 247</td><td>96.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 22182</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30448</td><td>92.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 67783</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 57075</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 29197</td><td>96.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 25053</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 140508</td><td>92.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 27711</td><td>96.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 54523</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 138012</td><td>68.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30429</td><td>76.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 25540</td><td>76.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 21454</td><td>88.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 73408</td><td>76.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30486</td><td>52.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 26279</td><td>64.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 23956</td><td>72.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 553579</td><td>64.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30854</td><td>68.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 1551</td><td>56.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 15700</td><td>52.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 97887</td><td>56.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 42446</td><td>44.0</td></tr></table></div><div style='width:100%; display: none;'  id='SVM_features' class="w3-container model_feature_list"><table style="width:100%" class="taxonomy"><tr><th align="left" style="width:25%" height="50">Microbe</th><th style="width:10%" align="left">% in top-k</th></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 81595</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 21449</td><td>92.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 56880</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 38826</td><td>92.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 122647</td><td>84.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30509</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 40108</td><td>92.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 25053</td><td>88.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 68256</td><td>88.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 52656</td><td>72.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 103950</td><td>72.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 67783</td><td>72.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 40226</td><td>64.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30942</td><td>76.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30486</td><td>64.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 416914</td><td>60.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 13461</td><td>60.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 129651</td><td>52.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 29197</td><td>52.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 14674</td><td>44.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 56945</td><td>28.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 76519</td><td>44.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 31350</td><td>32.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30395</td><td>12.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 40091</td><td>20.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 12349</td><td>24.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 42446</td><td>36.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 247</td><td>16.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 73408</td><td>28.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 59739</td><td>12.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 15700</td><td>12.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 21454</td><td>0.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 123159</td><td>8.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30553</td><td>4.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 54660</td><td>4.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 31566</td><td>20.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30502</td><td>0.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 76464</td><td>12.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30448</td><td>4.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 1551</td><td>16.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 26279</td><td>4.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 68259</td><td>4.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 17455</td><td>4.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 54523</td><td>24.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30925</td><td>8.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 108778</td><td>0.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 57059</td><td>28.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 50873</td><td>16.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 78969</td><td>0.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 31301</td><td>0.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 121783</td><td>4.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 136641</td><td>40.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 170149</td><td>36.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 64987</td><td>24.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 94989</td><td>32.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 37473</td><td>44.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 21438</td><td>32.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 1435</td><td>40.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 731894</td><td>44.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 21434</td><td>48.0</td></tr></table></div><div style='width:100%; display: none;'  id='Logistic Regression_features' class="w3-container model_feature_list"><table style="width:100%" class="taxonomy"><tr><th align="left" style="width:25%" height="50">Microbe</th><th style="width:10%" align="left">% in top-k</th></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 138012</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 82508</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 81595</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 54425</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30509</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 86805</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 40108</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 25850</td><td>96.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 93747</td><td>96.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 21457</td><td>92.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30394</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 56880</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 38330</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 39466</td><td>96.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 38826</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 97887</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 13461</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 54660</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 55643</td><td>92.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 54487</td><td>92.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30854</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 21449</td><td>88.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30407</td><td>96.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 122647</td><td>92.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30429</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 25540</td><td>84.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 68256</td><td>92.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 25053</td><td>96.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 22182</td><td>76.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 23990</td><td>96.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 38079</td><td>72.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 15904</td><td>68.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 52191</td><td>92.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 140508</td><td>56.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 99195</td><td>72.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30486</td><td>88.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 38555</td><td>96.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 40226</td><td>88.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 62992</td><td>80.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 40091</td><td>52.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 21438</td><td>56.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 65162</td><td>32.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 52656</td><td>80.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 110078</td><td>52.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 553579</td><td>64.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30448</td><td>80.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 40614</td><td>56.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 50870</td><td>76.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30942</td><td>76.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 72950</td><td>80.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 29197</td><td>64.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 103950</td><td>52.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 31350</td><td>92.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 40080</td><td>44.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 26418</td><td>44.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 67783</td><td>52.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 416914</td><td>36.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 54523</td><td>44.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 731894</td><td>24.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 57075</td><td>48.0</td></tr></table></div><div style='width:100%; display: none;'  id='MLPNN_features' class="w3-container model_feature_list"><table style="width:100%" class="taxonomy"><tr><th align="left" style="width:25%" height="50">Microbe</th><th style="width:10%" align="left">% in top-k</th></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 82508</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 54425</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 151101</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 81595</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30509</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 52191</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 13461</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 25850</td><td>96.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 56880</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 40108</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 86805</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30394</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 93747</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30429</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 25053</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 65162</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 39466</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 38330</td><td>96.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 21449</td><td>92.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 97887</td><td>96.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 54660</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 68256</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 23990</td><td>96.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 55643</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 15904</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 38826</td><td>92.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 40226</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30407</td><td>96.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 38555</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30854</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 25540</td><td>96.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 553579</td><td>92.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30486</td><td>92.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 17467</td><td>92.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 72950</td><td>92.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 140508</td><td>88.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 62992</td><td>100.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30942</td><td>96.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 38079</td><td>88.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 40080</td><td>80.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 54487</td><td>80.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 110078</td><td>80.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 103950</td><td>72.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30448</td><td>96.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 27711</td><td>80.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 31350</td><td>92.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 416914</td><td>76.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 1435</td><td>80.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 21457</td><td>80.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 40091</td><td>72.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 22182</td><td>80.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 67783</td><td>64.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 99195</td><td>60.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 122647</td><td>80.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 107945</td><td>72.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 68259</td><td>64.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 12349</td><td>56.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 14674</td><td>56.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 40614</td><td>48.0</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 52656</td><td>56.0</td></tr></table></div>
+             </div>
+            <br/>
+            <h3>Aggregated Feature List</h3>
+            <br/>
+            <div style="width:100%" id="Raw" class="w3-container feature_list"><table style="width:100%" class="taxonomy"><tr><th align="left" style="width:25%" height="50">Microbe</th><th style="width:10%" align="left">% in top-k</th><th style="width:20%" align="left">Elevated class</th><th style="width:15%" align="left">PERMANOVA rank</th><th style="width:20%" align="left">Adjusted p-value</th></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30854</td><td>87.0</td><td>H</td><td>20419</td><td>4.410e-01</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 40080</td><td>57.0</td><td>H</td><td>6861</td><td>6.000e-03</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 82508</td><td>100.0</td><td>H</td><td>16178</td><td>2.570e-01</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 25850</td><td>97.0</td><td>H</td><td>4913</td><td>1.000e-03</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 86805</td><td>100.0</td><td>H</td><td>4601</td><td>1.000e-03</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 93747</td><td>99.0</td><td>H</td><td>4851</td><td>1.000e-03</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 38826</td><td>81.0</td><td>D</td><td>24982</td><td>7.510e-01</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 40108</td><td>98.0</td><td>D</td><td>836</td><td>1.000e-03</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 54425</td><td>100.0</td><td>H</td><td>9910</td><td>4.600e-02</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 151101</td><td>100.0</td><td>H</td><td>3492</td><td>1.000e-03</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 56880</td><td>100.0</td><td>D</td><td>11155</td><td>6.800e-02</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 21457</td><td>93.0</td><td>H</td><td>2232</td><td>1.000e-03</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 97887</td><td>87.0</td><td>H</td><td>10265</td><td>5.000e-02</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 50870</td><td>46.0</td><td>H</td><td>14486</td><td>1.610e-01</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 13461</td><td>90.0</td><td>D</td><td>1677</td><td>1.000e-03</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 67783</td><td>72.0</td><td>D</td><td>7548</td><td>1.200e-02</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 38330</td><td>99.0</td><td>H</td><td>11545</td><td>7.800e-02</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 138012</td><td>92.0</td><td>D</td><td>5895</td><td>2.000e-03</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 68256</td><td>95.0</td><td>D</td><td>8135</td><td>1.800e-02</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 39466</td><td>99.0</td><td>H</td><td>5431</td><td>1.000e-03</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 23990</td><td>97.0</td><td>H</td><td>22362</td><td>5.370e-01</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 81595</td><td>100.0</td><td>D</td><td>14703</td><td>1.690e-01</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 40614</td><td>73.0</td><td>H</td><td>13009</td><td>1.260e-01</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 65162</td><td>83.0</td><td>H</td><td>3419</td><td>1.000e-03</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 553579</td><td>78.0</td><td>H</td><td>27245</td><td>8.890e-01</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 55643</td><td>79.0</td><td>H</td><td>25029</td><td>7.540e-01</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 72950</td><td>62.0</td><td>H</td><td>7254</td><td>9.000e-03</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 52656</td><td>52.0</td><td>D</td><td>8634</td><td>2.500e-02</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 107945</td><td>46.0</td><td>H</td><td>2059</td><td>1.000e-03</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30509</td><td>100.0</td><td>D</td><td>5368</td><td>1.000e-03</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 54487</td><td>90.0</td><td>H</td><td>15216</td><td>2.000e-01</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 21438</td><td>49.0</td><td>H</td><td>9218</td><td>3.400e-02</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30429</td><td>94.0</td><td>H</td><td>15444</td><td>2.140e-01</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 15904</td><td>92.0</td><td>H</td><td>5983</td><td>2.000e-03</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30942</td><td>68.0</td><td>D</td><td>2126</td><td>1.000e-03</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30394</td><td>100.0</td><td>H</td><td>24418</td><td>7.040e-01</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 25053</td><td>96.0</td><td>D</td><td>24574</td><td>7.180e-01</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 94989</td><td>10.0</td><td>H</td><td>10006</td><td>4.700e-02</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 27711</td><td>68.0</td><td>H</td><td>20380</td><td>4.380e-01</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 54523</td><td>44.0</td><td>D</td><td>20292</td><td>4.300e-01</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 38079</td><td>69.0</td><td>H</td><td>22619</td><td>5.460e-01</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 38555</td><td>72.0</td><td>H</td><td>11209</td><td>6.900e-02</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 140508</td><td>83.0</td><td>H</td><td>6868</td><td>6.000e-03</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 1551</td><td>44.0</td><td>D</td><td>23490</td><td>6.210e-01</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 21449</td><td>68.0</td><td>D</td><td>28487</td><td>9.610e-01</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 17467</td><td>80.0</td><td>H</td><td>3540</td><td>1.000e-03</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 52191</td><td>98.0</td><td>H</td><td>9373</td><td>3.600e-02</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 57075</td><td>59.0</td><td>H</td><td>2161</td><td>1.000e-03</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 73408</td><td>27.0</td><td>H</td><td>5576</td><td>2.000e-03</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 25540</td><td>87.0</td><td>H</td><td>1858</td><td>1.000e-03</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 22182</td><td>89.0</td><td>H</td><td>2989</td><td>1.000e-03</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 12349</td><td>59.0</td><td>D</td><td>9893</td><td>4.500e-02</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30486</td><td>74.0</td><td>D</td><td>5444</td><td>1.000e-03</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 30407</td><td>80.0</td><td>H</td><td>19963</td><td>4.040e-01</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 731894</td><td>46.0</td><td>H</td><td>3526</td><td>1.000e-03</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU B 56945</td><td>42.0</td><td>D</td><td>16490</td><td>2.680e-01</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 15700</td><td>26.0</td><td>D</td><td>25538</td><td>7.930e-01</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 31566</td><td>48.0</td><td>D</td><td>20659</td><td>4.590e-01</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 247</td><td>44.0</td><td>D</td><td>16753</td><td>2.770e-01</td></tr><tr><td class="microbe" style="font-style:italic;"><font color="darkblue">OTU F 62992</td><td>73.0</td><td>H</td><td>8539</td><td>2.400e-02</td></tr></table></div>
+            <h3>Evaluation Over Training Data</h3>
+            <div style="margin-bottom:50px;"><table class="model_table"><tr><th style="width:150px;text-align:left">Model</th><th style="width:100px">AUC</th><th style="width:100px">MCC</th><th style="width:100px">Precision</th><th style="width:100px">Recall</th><th style="width:100px">F1</th></tr><tr><td style="text-align:left">RF</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td></tr><tr><td style="text-align:left">SVM</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td></tr><tr><td style="text-align:left">Logistic Regression</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td></tr><tr><td style="text-align:left">MLPNN</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td><td>1.00</td></tr></table>
+            <br/><br/>
+            <h3>Evaluation On External Data</h3><div style="margin-bottom:50px;"><table class="model_table"><tr><th style="width:150px;text-align:left">Model</th><th style="width:100px">AUC</th><th style="width:100px">MCC</th><th style="width:100px">Precision</th><th style="width:100px">Recall</th><th style="width:100px">F1</th></tr><tr><td style="text-align:left">RF</td><td>0.46</td><td>0.06</td><td>0.56</td><td>0.26</td><td>0.36</td></tr><tr><td style="text-align:left">SVM</td><td>0.49</td><td>0.12</td><td>0.75</td><td>0.09</td><td>0.16</td></tr><tr><td style="text-align:left">Logistic Regression</td><td>0.48</td><td>0.04</td><td>0.57</td><td>0.12</td><td>0.20</td></tr><tr><td style="text-align:left">MLPNN</td><td>0.47</td><td>-0.00</td><td>0.50</td><td>0.03</td><td>0.06</td></tr></table></div>
+            <br/><br/>
+        </main>
+
+        <footer>
+            <p>Footer</p>
+        </footer>
+    </body>
+
+    <style>
+    @import 'https://fonts.googleapis.com/css?family=Ubuntu:300, 400, 500, 700';
+
+    *, *:after, *:before {
+      margin: 0;
+      padding: 0;
+    }
+
+    .svg-container {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+    svg {
+      path {
+        transition: .1s;
+      }
+
+      &:hover path {
+        d: path("M 800 300 Q 400 250 0 300 L 0 0 L 800 0 L 800 300 Z");
+      }
+    }
+
+    body {
+      background: #fff;
+      color: #333;
+      font-family: 'Ubuntu', sans-serif;
+      position: relative;
+    }
+
+    h1 {
+      font-size: 64;
+    }
+
+    h2 {
+      font-size: 32;
+      margin-bottom:5px;
+    }
+
+    h3 {
+      font-size: 28;
+    }
+
+    header {
+      color: #fff;
+      padding-top: 10vs;
+      padding-bottom: 10vw;
+      text-align: center;
+    }
+
+    .category {
+      font-size: 18;
+      font-weight: bold;
+    }
+    
+    .descriptor {
+      font-size: 18;
+    }
+
+    table.model_table {
+      border: 1px solid #1C6EA4;
+      background-color: #EEEEEE;
+      text-align: left;
+      border-collapse: collapse;
+    }
+    table.model_table td, table.model_table th {
+      border: 1px solid #AAAAAA;
+      padding: 3px 2px;
+    }
+    table.model_table tbody td {
+      font-size: 20;
+    }
+    table.model_table tr:nth-child(even) {
+      background: #D0E4F5;
+    }
+    table.model_table thead {
+      background: #1C6EA4;
+      background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+      background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+      background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+      border-bottom: 2px solid #444444;
+    }
+    table.model_table thead th {
+      font-size: 24;
+      font-weight: bold;
+      color: #FFFFFF;
+      border-left: 2px solid #D0E4F5;
+    }
+    table.model_table thead th:first-child {
+      border-left: none;
+    }
+
+    table.model_table tfoot {
+      font-size: 16;
+      font-weight: bold;
+      color: #FFFFFF;
+      background: #D0E4F5;
+      background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+      background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+      background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+      border-top: 2px solid #444444;
+    }
+    table.model_table tfoot td {
+      font-size: 20;
+    }
+    table.model_table tfoot .links {
+      text-align: right;
+    }
+    table.model_table tfoot .links a{
+      display: inline-block;
+      background: #1C6EA4;
+      color: #FFFFFF;
+      padding: 2px 8px;
+      border-radius: 5px;
+    }
+
+    main {
+      background: linear-gradient(to bottom, #ffffff 0%, #dddee1 100%);
+      border-bottom: 1px solid rgba(0, 0, 0, .2);
+      padding: 10vh 0 80vh 2vw;
+      position: relative;
+      text-align: left;
+      overflow: hidden;
+      
+      &::after {
+        border-right: 2px dashed #eee;
+        content: '';
+        position: absolute;
+        top: calc(10vh + 1.618em);
+        bottom: 0;
+        left: 50%;
+        width: 2px;
+        height: 100%;
+      }
+    }
+
+    footer {
+      background: #dddee1;
+      padding: 5vh 0;
+      text-align: center;
+      position: relative;
+    }
+
+    a:link, a:visited {
+      color: white;
+      padding: 14px 25px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .button {
+      background-color: darkblue;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 2px;
+    }
+    .border {
+      border-width:2px;
+      border-style:solid;
+      border-color:darkblue;
+    }
+    
+    .microbe {
+      font-size:20;
+    }
+    .taxonomy {
+      font-size:24;
+      float:left;
+      margin-bottom:50px;
+    }
+    .feature_dist {
+      width:80vw;
+    }
+
+    </style>
+    
+    <script>
+    function openBoxplot(stat) {
+      var i;
+      var x = document.getElementsByClassName("boxplot");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      document.getElementById(stat).style.display = "block";  
+    }
+
+    function openDist(stat) {
+      var i;
+      var x = document.getElementsByClassName("feature_dist");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      document.getElementById(stat).style.display = "block";  
+    }
+    
+    function openFeat(stat) {
+      var i;
+      var x = document.getElementsByClassName("model_feature_list");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      document.getElementById(stat).style.display = "block";  
+    }
+    
+    
+    
+    </script>
+    

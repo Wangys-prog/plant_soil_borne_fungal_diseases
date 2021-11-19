@@ -1,0 +1,16 @@
+name: meta-signer
+channels:
+  - defaults
+dependencies:
+  - matplotlib
+  - numpy
+  - pip
+  - python=3.7.0
+  - pip:
+    - tensorflow==1.14.0
+    - pandas
+    - scikit-learn
+    - scipy
+    - scikit-bio
+    - seaborn
+    - statsmodels
